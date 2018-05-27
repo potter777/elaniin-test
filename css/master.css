@@ -175,8 +175,29 @@ section .message {
     padding: 0;
 }
 
-.work--card {
+.works--card {
     background-size: cover;
+}
+
+.photo-info {
+    height: 100%;
+    padding-top: 10px;
+    background-color: #58565647;
+    opacity: 0;
+    transition: opacity 300ms ease;
+    will-change: opacity, transform;
+}
+
+.photo-info:hover {
+    opacity: 1;
+}
+
+.photo-info .caption {
+    color: #d8d1d1;
+}
+
+.photo-info p {
+    margin: 0 5px 0 10px;
 }
 
 #photo1 {
@@ -204,11 +225,11 @@ section .message {
 }
 
 
-.work--card.regular, .work--card.wide {
+.works--card.regular, .works--card.wide {
     height: 250px;
 }
 
-.work--card.tall {
+.works--card.tall {
     height: 500px;
 }
 
@@ -550,6 +571,10 @@ section.contact .title{
           max-width: 80%;
       }
 
+      .hello--paragraph {
+          font-size: 0.85rem;
+      }
+
       .pricing--item {
           transition: none;
       }
@@ -570,6 +595,10 @@ section.contact .title{
           font-size: 0.9rem;
       }
 
+      .statistics .number {
+          font-size: 1rem;
+      }
+
       section.brand i{
           transition: none;
       }
@@ -585,5 +614,9 @@ section.contact .title{
 
       .input-container {
           width: 90%;
+      }
+
+      section.testimonials .title {
+          font-size: 29px;
       }
 }
