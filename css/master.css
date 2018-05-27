@@ -210,27 +210,27 @@ section .message {
 }
 
 #photo1 {
-    background-image: url("/elaniin/img/photos/autumn-goodman.jpg");
+    background-image: url("https://raw.githubusercontent.com/potter777/elaniin-test/demo/img/photos/autumn-goodman.jpg");
 }
 
 #photo2 {
-    background-image: url("/elaniin/img/photos/luca-bravo.jpg");
+    background-image: url("https://raw.githubusercontent.com/potter777/elaniin-test/demo/img/photos/luca-bravo.jpg");
 }
 
 #photo3 {
-    background-image: url("/elaniin/img/photos/sam-burriss.jpg");
+    background-image: url("https://raw.githubusercontent.com/potter777/elaniin-test/demo/img/photos/sam-burriss.jpg");
 }
 
 #photo4 {
-    background-image: url("/elaniin/img/photos/nathan-dumlao.jpg");
+    background-image: url("https://raw.githubusercontent.com/potter777/elaniin-test/demo/img/photos/nathan-dumlao.jpg");
 }
 
 #photo5 {
-    background-image: url("/elaniin/img/photos/emre-gencer.jpg");
+    background-image: url("https://raw.githubusercontent.com/potter777/elaniin-test/demo/img/photos/emre-gencer.jpg");
 }
 
 #photo6 {
-    background-image: url("/elaniin/img/photos/yannis-papanastasopoulos.jpg");
+    background-image: url("https://raw.githubusercontent.com/potter777/elaniin-test/demo/img/photos/yannis-papanastasopoulos.jpg");
 }
 
 
@@ -322,19 +322,19 @@ width: 10%;
 }
 
 .pricing--item.model {
-    background-image: url('/elaniin/img/photos/andy-pena.jpg');
+    background-image: url('https://raw.githubusercontent.com/potter777/elaniin-test/demo/img/photos/andy-pena.jpg');
 }
 
 .pricing--item.events {
-    background-image: url('/elaniin/img/photos/annie-spratt.jpg');
+    background-image: url('https://raw.githubusercontent.com/potter777/elaniin-test/demo/img/photos/annie-spratt.jpg');
 }
 
 .pricing--item.corporate {
-    background-image: url('/elaniin/img/photos/rawpixel.jpg');
+    background-image: url('https://raw.githubusercontent.com/potter777/elaniin-test/demo/img/photos/rawpixel.jpg');
 }
 
 .pricing--item.movies {
-    background-image: url('/elaniin/img/photos/marcus-wright.jpg');
+    background-image: url('https://raw.githubusercontent.com/potter777/elaniin-test/demo/img/photos/marcus-wright.jpg');
 }
 
 .pricing--item .opacity {
@@ -524,7 +524,7 @@ footer span {
 
 .xvideo-container {
     position: relative;
-    background-image: url("/elaniin/img/photos/olivier-collet.jpg");
+    background-image: url("https://raw.githubusercontent.com/potter777/elaniin-test/demo/img/photos/olivier-collet.jpg");
     background-size: cover;
     height: 500px;
 }
