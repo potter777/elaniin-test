@@ -30,6 +30,15 @@ nav {
     box-shadow: none;
 }
 
+#slide-out *{
+    color: #FFF;
+}
+
+#nav-mobile i {
+    font-size: 32px;
+    display: inline !important;
+}
+
 .menu--item a{
     font-size: 0.8rem;
 }
@@ -616,7 +625,20 @@ section.contact .title{
           width: 90%;
       }
 
-      section.testimonials .title {
+      section .title {
           font-size: 29px;
+      }
+
+      .hello--photo {
+          height: 400px;
+          overflow: hidden;
+      }
+
+      .hello--paragraph {
+          width: 80%;
+      }
+
+      .brand-logo {
+          padding-top: 10px !important;
       }
 }

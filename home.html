@@ -12,10 +12,11 @@
     <body>
         <nav class="transparent">
             <div class="nav-wrapper">
+                <a id="nav-mobile" class="hide-on-large-only" href="#"><i class="material-icons">menu</i></a>
                 <a href="#" class="brand-logo">
                     <img src="img/logo.png" alt="logotipe" class="responsive-img">
                 </a>
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <ul class="right hide-on-med-and-down">
                     <li class="menu--item"><a href="/home.html">Home.</a></li>
                     <li class="menu--item"><a href="/about.html">About Me.</a></li>
                     <li class="menu--item"><a href="#">Works.</a></li>
@@ -24,6 +25,13 @@
                 </ul>
             </div>
         </nav>
+        <ul id="slide-out" class="sidenav black white-text">
+            <li><a href="#!"><i class="material-icons">home</i>Home.</a></li>
+            <li><a href="#!"><i class="material-icons">accessibility</i>About me.</a></li>
+            <li><a href="#!"><i class="material-icons">bookmarks</i>Works.</a></li>
+            <li><a href="#!"><i class="material-icons">description</i>Journal.</a></li>
+            <li><a href="#!"><i class="material-icons">email</i>Contact.</a></li>
+        </ul>
         <main>
             <header>
                 <div class="row content hero">
@@ -50,7 +58,7 @@
             </header>
             <section class="hello black">
                 <div class="hello--photo">
-                    <img src="/elaniin/img/photos/nick-jio.jpg" class="z-depth-5"/>
+                    <img src="/elaniin/img/photos/nick-jio.jpg" class="z-depth-5 responsive-img"/>
                     <img src="/elaniin/img/decoration.png" class="hello--decoration" />
                 </div>
                 <div class="hello--text_container">
@@ -208,7 +216,7 @@
             </section>
             <section class="testimonials">
                 <div class="container">
-                    <p class="center title">Testimonials</p>
+                    <p class="center title">Testimonials.</p>
                     <div class="leftbar"></div>
                 </div>
             </section>
@@ -383,6 +391,7 @@
                 </div>
             </div>
         </footer>
+        <script src="/elaniin/js/materialize.min.js"></script>
         <script src="/elaniin/js/home.js"></script>
     </body>
 </html>
