@@ -497,6 +497,8 @@ footer span {
 
 /****** About page *****/
 
+
+
 .timeline .item {
     margin-bottom: 50px;
 }
@@ -645,7 +647,7 @@ section.contact .title{
           width: 90%;
       }
 
-      section .title {
+      section .title, header .title {
           font-size: 29px;
       }
 
@@ -660,5 +662,9 @@ section.contact .title{
 
       .brand-logo {
           padding-top: 10px !important;
+      }
+
+      .timeline {
+          padding-top: 25px;
       }
 }
