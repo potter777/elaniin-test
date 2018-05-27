@@ -4,6 +4,12 @@
     display: block;
 }
 
+.button-decoration {
+    background-image: url('/elaniin/img/box.png') !important;
+    background-repeat: no-repeat;
+    background-size: 50% 20px;
+}
+
 .text-decoration {
     background: linear-gradient(0deg, #5328fe 50%, rgba(0, 0, 0, 0) 50%);
 }
@@ -37,6 +43,13 @@ nav {
 #nav-mobile i {
     font-size: 32px;
     display: inline !important;
+}
+
+.menu--item.active {
+    background-image: url('/elaniin/img/box.png');
+    background-size: 55% 20px;
+    background-repeat: no-repeat;
+    background-position: left 15px;
 }
 
 .menu--item a{
@@ -190,7 +203,7 @@ section .message {
 
 .photo-info {
     height: 100%;
-    padding-top: 10px;
+    padding-top: 5px;
     background-color: #58565647;
     opacity: 0;
     transition: opacity 300ms ease;
@@ -301,6 +314,7 @@ section.statistics {
 
 .pricing--item_header {
     margin-left: 10px;
+    font-size: 1.2rem;
 }
 
 .pricing--header_separator {
@@ -310,6 +324,12 @@ width: 10%;
 
 .pricing--item_subheader {
     margin-left: 10px;
+    display: inline-block !important;
+    font-size: 1.2rem;
+}
+
+.pricing--description {
+    margin-top: -10px;
 }
 
 .pricing--description p {
